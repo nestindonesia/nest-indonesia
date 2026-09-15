@@ -561,6 +561,8 @@ p { margin: 0 0 16px; color: var(--ink-muted); }
 }
 
 .contact-item .value { color: var(--navy); font-weight: 500; }
+.contact-item .value a { color: var(--navy); text-decoration: none; }
+.contact-item .value a:hover { color: var(--teal); text-decoration: underline; }
 
 /* ---- footer ---- */
 .site-footer {
